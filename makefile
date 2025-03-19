@@ -1,10 +1,10 @@
 .PHONY: main cybersecurity
 PYTHON = python3
-FILE = main.py 
-
+FILE1 = main.py 
+FILE2 = cybersecurity.py
 main: 
-	$(PYTHON) $(FILE)
+	$(PYTHON) $(FILE1)
 
 cybersecurity:
-	$(PYTHON) cybersecurity.py
+	$(PYTHON) $(FILE2)
 
