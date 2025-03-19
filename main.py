@@ -1,3 +1,2 @@
-print("Hey I am TechCyberTonic")
-print("I am here to Learn the cyber environment")
-print("hello")
+a = "TechCyberTonic"
+print(f"Hey I am {a} and I am learning Python for Cybersecurity")
